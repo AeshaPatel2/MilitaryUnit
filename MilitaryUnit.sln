@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryUnit", "MilitaryUnit\MilitaryUnit.csproj", "{C6C40F83-0123-484E-9451-92DA0C65897F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryUnit_Library", "MilitaryUnit_Library\MilitaryUnit_Library.csproj", "{56944F38-0143-49BE-8021-550B247F48C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C6C40F83-0123-484E-9451-92DA0C65897F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C40F83-0123-484E-9451-92DA0C65897F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C40F83-0123-484E-9451-92DA0C65897F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56944F38-0143-49BE-8021-550B247F48C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56944F38-0143-49BE-8021-550B247F48C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56944F38-0143-49BE-8021-550B247F48C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56944F38-0143-49BE-8021-550B247F48C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

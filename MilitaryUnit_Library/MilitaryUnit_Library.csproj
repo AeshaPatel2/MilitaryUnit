@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6C40F83-0123-484E-9451-92DA0C65897F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MilitaryUnit</RootNamespace>
-    <AssemblyName>MilitaryUnit</AssemblyName>
+    <ProjectGuid>{56944F38-0143-49BE-8021-550B247F48C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MilitaryUnit_Library</RootNamespace>
+    <AssemblyName>MilitaryUnit_Library</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ParachuteDataFolder\Cargo.cs" />
+    <Compile Include="ParachuteDataFolder\PersonnelParachutes.cs" />
+    <Compile Include="Parachutes.cs" />
+    <Compile Include="PersonnelFolder\Corporate.cs" />
+    <Compile Include="PersonnelFolder\LowerEnlisted.cs" />
+    <Compile Include="PersonnelFolder\Managment.cs" />
+    <Compile Include="Personnel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transportation.cs" />
+    <Compile Include="TransportationFolder\Aricraft.cs" />
+    <Compile Include="TransportationFolder\Vehicles.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MilitaryUnit_Library\MilitaryUnit_Library.csproj">
-      <Project>{56944f38-0143-49be-8021-550b247f48c9}</Project>
-      <Name>MilitaryUnit_Library</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
