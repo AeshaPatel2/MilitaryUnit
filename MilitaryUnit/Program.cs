@@ -52,7 +52,7 @@ namespace MilitaryUnit
 
             vehicles.NumberOfTrans(8);
             vehicles.NumberOfVehicles(3, "HMMVVs");
-            vehicles.NumberOfVehicles(5,"LMTVs");
+            vehicles.NumberOfVehicles(5,"LMTVs"); 
 
             Console.ReadKey();
             Console.Clear();
